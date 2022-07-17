@@ -1,0 +1,118 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+hr{
+    width:50px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.item:hover{
+    filter:brightness(80%);
+}
+[class*="col-"]{
+    padding: 1rem;
+}
+[class*="row-"]{
+    padding: 2rem 0;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+  .row li{
+    list-style:  none;
+  }
+  .active {
+    background-color: rgb(144, 77, 238) !important;
+ }
+
+.half{
+  width:50%;
+ 
+}
+
+
+
+
+ 
+ marquee a{
+     text-decoration: none;
+     color:black;
+ }
+ marquee a:hover{
+    text-decoration: none;
+    color:black;
+}
+.r1 .list-group-item {
+    background-color: rgb(144, 77, 238) !important;
+    
+}
+.r1 .list-group-item {
+    text-decoration: none;
+    color:white;
+}
+.r1 i{
+    border:solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+
+
+
+
+.k .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .k .column {
+    flex: 25%;
+    max-width: 23.3%;
+    padding: 0 4px;
+  }
+  
+ .k .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+ .k .column img:hover {
+    filter: grayscale(0);
+  }
+  @media screen and (max-width: 600px) {
+  .k .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+   .k .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+   .k .column img {
+      filter: grayscale(0) brightness(1);
+    }
+  }
